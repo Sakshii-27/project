@@ -1,5 +1,7 @@
 import React from 'react';
 import './App.css';
+import LoanCalculator from './LoanCalculator'; 
+import Dashboard from './Dashboard';
 
 function App() {
   return (
@@ -8,6 +10,11 @@ function App() {
         <h1>Welcome to the Fintech Hackathon</h1>
         <p>Innovating financial solutions for a better future.</p>
       </header>
+      <Dashboard />
+
+      <h2>Fintech Hackathon</h2>
+      <LoanCalculator/> 
+    
 
       <section className="section">
         <h2>About Our Project</h2>

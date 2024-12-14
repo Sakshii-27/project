@@ -1,6 +1,7 @@
 {
   "name": "fintech-hackathon",
   "version": "0.1.0",
+  "homepage": "https://sakshii-27.github.io/project/",
   "private": true,
   "dependencies": {
     "cra-template": "1.2.0",
@@ -8,13 +9,15 @@
     "react-dom": "^19.0.0",
     "react-scripts": "5.0.1"
   },
+  
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+  "start": "react-scripts start",
+  "build": "react-scripts build",
+  "test": "react-scripts test",
+  "eject": "react-scripts eject",
+  "predeploy": "npm run build",   
+  "deploy": "gh-pages -d build"
   },
-  "homepage": "https://sakshii-27.github.io/project"
 
   "eslintConfig": {
     "extends": [
